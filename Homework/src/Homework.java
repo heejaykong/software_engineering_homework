@@ -1,14 +1,12 @@
 import Contacts.*;
 import Appointments.*;
 // import TODO.*
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.event.ActionListener;
 
 public class Homework extends JFrame {
-   
    private Contacts contacts;
    private Appointments appoints;
    // private TODO
@@ -64,5 +62,4 @@ public class Homework extends JFrame {
    public static void main(String[] args) {
       new Homework();
    }
-
 }
